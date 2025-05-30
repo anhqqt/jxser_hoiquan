@@ -163,7 +163,7 @@ function storm_goon_start()
 			SubWorld = SubWorldID2Idx(325)
 	end
 	say_index = 1
-	local mem_song, mem_jin = bt_checkmemcount_balance()
+	local mem_song, mem_jin = bt_checkmemcount_balance(
 	if (mem_song == nil or mem_jin == nil) then
 		return
 	end
@@ -183,7 +183,7 @@ end
 
 function bt_enterbattle()
 	local nOldSubWorld = SubWorld
-		if ( GetLevel() >= 40 and GetLevel() < 80 ) then
+		if ( GetLevel() >= 40 and GetLevel() < ) then
 		SubWorld = SubWorldID2Idx(323)
 	elseif ( GetLevel() >= 80 and GetLevel() < 120 ) then
 		SubWorld = SubWorldID2Idx(324)
