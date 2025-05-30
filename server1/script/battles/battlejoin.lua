@@ -169,7 +169,7 @@ function storm_goon_start()
 	end
 	
 	local tb_words = {
-		"Trèng trËn ®· rÒn vang! Sao ng­¬i ch­a tham gia chiÕn?",
+		"Trèng trËn ®· rÒn vang! Sao ng­¬i ch­a tham gia",
 		"Chóc mõng b¹n ®· chİnh thøc trë thµnh t­íng sÜ cña ®¹i Tèng! H·y chøng tá b¶n lÜnh cña m×nh ®i!",
 		"Chóc mõng b¹n ®· chİnh thøc trë thµnh t­íng sÜ cña ®¹i Kim! H·y chøng tá b¶n lÜnh cña m×nh ®i!"
 	}
