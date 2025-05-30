@@ -52,7 +52,7 @@ function battles_award_all_singleplayer(nplayerindex,nplayer_point,ngame_level)
 
 			local noldplayindex = PlayerIndex
 			PlayerIndex = nplayerindex
-			battles_award_singleplayer_AddItem(nplayer_point)
+			battles_award_singleplayer_AddItem
 			PlayerIndex = noldplayindex
 			return
 		end -- >= 3000 point
